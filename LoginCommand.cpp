@@ -9,9 +9,9 @@ LoginCommand::LoginCommand(User& user, std::string password)
 
 void LoginCommand::execute() {
     if (user.verifyPassword(attemptedPassword)) {
-        std::cout << "Потребител " << user.getUsername() << "се вписа успешно!\n";
+        std::cout << "User " << user.getUsername() << " has logged in successfuly.\n";
     }
     else {
-        std::cout << "Грешна парола за потребител " << user.getUsername() << ".\n";
+        std::cout << "Wrong password for user: " << user.getUsername() << ".\n";
     }
 }
