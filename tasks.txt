@@ -1,0 +1,6 @@
+1
+101
+Title: Implement Task class
+Description: Create full Task implementation with all fields
+3
+0

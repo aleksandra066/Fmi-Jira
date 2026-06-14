@@ -1,0 +1,35 @@
+# === Игнориране на папки, генерирани от компилатора (C++) ===
+Debug/
+Release/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+
+# === Игнориране на изпълними и временни обектни файлове ===
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+
+# === Специфични файлове за Visual Studio ===
+.vs/
+*.user
+*.suo
+*.db
+*.opendb
+*.sdf
+*.sln.docstates
+
+# === Специфични файлове за CLion / CMake (ако ги ползваш) ===
+.cmake/
+cmake-build-debug/
+cmake-build-release/
+CMakeCache.txt
+CMakeFiles/
+
+# === Специфични файлове за VS Code (ако го ползваш) ===
+.vscode/
